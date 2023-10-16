@@ -1,0 +1,23 @@
+div{
+    width: 400px;
+    background-color: lightgrey;
+    box-shadow: 0 0 10px black;
+    padding: 1%;
+    border-radius: 5px;
+
+    
+}
+input,textarea,select{
+    border: none;
+    font-size: 15px;
+    margin: 5px;
+    border-radius: 5px;
+    margin-bottom: 1.5%;
+}
+.button{
+    color: white;
+    background-color: black;
+}
+div label{
+    padding-top: 100px;
+}

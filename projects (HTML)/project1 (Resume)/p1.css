@@ -1,0 +1,50 @@
+body{
+   
+    color:black;
+}
+
+.profile{
+    border-radius: 50%;
+    width: 100px;
+}
+td{
+    vertical-align: top;
+}
+
+figure img{
+padding: 2%;
+width: 20%;
+}
+figcaption{
+font-size: 13px;
+}
+figure{
+padding: 10px;
+
+width: 10%;
+text-align: center;
+display: inline-block;
+}
+
+.header{
+    background-color: lightgray;
+}
+.middle{
+    background-color: white;
+}
+.bottom{
+    background-color: lightgray;
+}
+a{
+    color: dodgerblue;
+    font-size: 35px;
+    text-decoration: none;
+    vertical-align: 25%;
+    
+}
+a:hover{
+    color: black;
+    text-decoration: none;
+    background-color: coral;
+    border: 2px solid black;
+}

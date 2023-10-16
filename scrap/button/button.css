@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: white;
+}
+.img-link{
+    padding: 20px;
+    text-align: center;
+}
+.img-link a{
+     text-decoration: none;
+     font-size: 40px;
+    
+     border: 2px solid white;
+    
+}
+.img-link a:hover{
+    font-size: 45px;
+    border: 5px solid white;
+}

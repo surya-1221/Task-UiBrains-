@@ -1,0 +1,10 @@
+details{
+    background-color: lightgray;
+    padding: 10px;
+    margin: 10px;
+    width: 600px;
+}
+details div{
+    padding: 10px;
+    background-color: darkgray;
+}

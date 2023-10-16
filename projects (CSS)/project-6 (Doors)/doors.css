@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+}
+.container{
+    width: 460px;
+    height: 650px;
+    border: 15px solid rgb(90, 70, 44);
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 0 5px 10px gray;
+    overflow: hidden;
+    position: relative;
+}
+.container img{
+    width: inherit;
+    height: inherit;
+    transition: all 0.5s;
+}
+.container:hover img{
+    transform: scale(1.7,1.7);
+    
+}
+.container .left-door{
+    background-image: url("images/left-door.jpg");
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    position: absolute;  
+    transform:perspective(430px) rotateY(0deg);
+    transform-origin: left;
+    transition: all 5.8s;
+    
+}
+.container:hover .left-door{
+    transform:perspective(430px) rotateY(90deg);
+}
+
+.container .right-door{
+    background-image: url("images/Right-door\ \(2\).jpg");
+    top: 0;
+    right: 0;
+    background-size: cover;
+    width: 50%;
+    height: 100%;
+    position: absolute;  
+    transform:perspective(430px) rotateY(0deg);
+    transform-origin: right;
+    transition: all 5.8s;
+    
+}
+.container:hover .right-door{
+    transform:perspective(430px) rotateY(-90deg);
+}

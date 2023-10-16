@@ -1,0 +1,22 @@
+.container{
+    width: 400px;
+    height: 600px;
+    box-shadow: 0 0 10px black;
+    margin:100px auto;
+   background:linear-gradient(75deg,rgb(255, 0, 0),blue);
+} 
+
+.container h2{
+     text-align: center;
+     margin-top: 200px;
+     font-size: 35px;
+
+}
+.reg-form label,input,select{
+    font-size: 20px;
+    
+    
+}
+.reg-form{
+    padding: 50px;
+}

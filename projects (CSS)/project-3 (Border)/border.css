@@ -1,0 +1,69 @@
+div{
+    background-color: salmon;
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    margin: 20px;
+    width: 500px;
+}
+#border-1{
+    border: 15px tomato;
+    border-style: double;
+   
+}
+#border-2{
+    border-bottom: 15px solid tomato;   
+}
+#border-3{
+    border: 15px tomato;
+    border-style: double;
+    border-radius: 0 90px 0px 90px;
+}
+section{
+    text-align:center;
+    padding: 20px;
+    font-size: 40px;
+    margin-top: 50px;
+}
+p{
+    margin-top: 125px;
+}
+
+
+#circle{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 15px dotted tomato;
+    background-color: salmon;
+    box-shadow: 0 0 10px black;
+}
+#frame-1{
+    width: 300px;
+    height: 300px;
+    border-top: 40px solid red ;
+    border-bottom: 40px solid green;
+    border-left: 40px solid yellow;
+    border-right: 40px solid blue;
+}
+#frame-2{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border-top: 40px solid red ;
+    border-bottom: 40px solid green;
+    border-left: 80px solid yellow;
+    border-right: 80px solid blue;
+}
+#frame-3{
+    width: 230px;
+    height: 350px;
+    border-radius: 50%;
+    border-top: 40px double rgb(255, 255, 255) ;
+    border-bottom: 40px double rgb(255, 255, 255);
+    border-left: 80px double rgb(56, 180, 204);
+    border-right: 80px double rgb(255, 255, 255);
+    border-color: rgb(112, 0, 0);
+    text-align: center;
+   
+}
