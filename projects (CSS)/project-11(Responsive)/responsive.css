@@ -1,0 +1,52 @@
+body{
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    display: none;
+}
+div img{
+    width: 100%;
+}
+/*------------------- mobile -------------------------*/
+/* @media (max-width:500px) {
+   body{
+    background-color: rgb(217, 69, 69);
+   }
+   #mobile-screen h1{
+    display: block;
+   }
+} 
+    
+//------------------- tablet-------------------------//
+@media (min-width:501px) and (max-width:768px) {
+    body{
+     background-color: rgb(196, 201, 39);
+    }
+    #tablet h1{
+     display: block;
+    }
+ } 
+
+ //------------------laptop-----------------//
+ @media (min-width:769px) and (max-width:1200px) {
+    body{
+     background-color: rgb(28, 185, 70);
+    }
+    #laptop h1{
+     display: block;
+    }
+ }
+
+ //-------------------wide-screen --------//
+ @media (min-width:1201px) {
+    body{
+     background-color: rgb(27, 127, 198);
+    }
+    #wide-screen h1{
+     display: block;
+    }
+ } */
